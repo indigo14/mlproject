@@ -1,6 +1,6 @@
 import sys #often used for accessing command-line arguments, file I/O functionality, and error handling.
 import logging #module provides a flexible framework for emitting log messages
-#from src.logger import logging
+from src.logger import logging
 
 """error_detail: holds the result of sys.exc_info(),
     a tuple containing information about the current exception being handled. sys.exc_info() returns a 
